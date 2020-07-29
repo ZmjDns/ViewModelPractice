@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ViewModelPractice</string>
+    <string name="counter">计数</string>
+    <string name="clear">清除</string>
+    <string name="getUser">getuser</string>
+    <string name="viewModel">viewmodel</string>
+    <string name="addData">添加数据</string>
+    <string name="update">更新</string>
+    <string name="delete">删除</string>
+    <string name="queryData">查询数据</string>
+    <string name="roomDb">roomdb</string>
+    <string name="addBook">添加Book</string>
+    <string name="queryBook">查询Book</string>
+    <string name="oneTimeWork">oneTimeWork</string>
+    <string name="workManager">workManager</string>
+    <string name="periodicWork">周期后台工作</string>
+</resources>

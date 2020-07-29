@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <import type="android.view.View.OnClickListener"/>
+
+        <variable
+            name="addData"
+            type="OnClickListener" />
+        <variable
+            name="update"
+            type="OnClickListener" />
+        <variable
+            name="delete"
+            type="OnClickListener" />
+        <variable
+            name="queryData"
+            type="OnClickListener" />
+
+        <variable
+            name="book"
+            type="OnClickListener" />
+
+        <variable
+            name="queryBook"
+            type="OnClickListener" />
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/addData"
+            android:onClick="@{addData}"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/update"
+            android:onClick="@{update}"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            android:onClick="@{delete}"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/queryData"
+            android:onClick="@{queryData}"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/addBook"
+            android:onClick="@{book}"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/queryBook"
+            android:onClick="@{queryBook}"/>
+
+    </LinearLayout>
+</layout>
